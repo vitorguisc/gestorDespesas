@@ -30,4 +30,3 @@ Este projeto pode ser utilizado como uma ferramenta educacional para:
 ## Créditos
 Feito por [vitorguisc](https://github.com/vitorguisc).
 
-# gestorDespesas
