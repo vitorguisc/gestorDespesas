@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Despesas</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <section id="title">
+            <h2>Gestor de Despesas</h2>
+        </section>
+        <section id="calculator">
+            <section id="balance">
+                <h2>Saldo: <span id="balanceAmount">R$0,00</span></h2>
+                <input type="number" id="initialBalance" placeholder="Saldo Inicial">
+            </section>
+            <section id="expenses">
+                <h2>Despesas</h2>
+                <ul id="expensesList"></ul>
+            </section>
+            <section id="addExpense">
+                <h2>Adicionar Despesa</h2>
+                <input type="text" id="expenseName" placeholder="Nome da despesa">
+                <input type="number" id="expenseAmount" placeholder="Valor da despesa">
+                <button id="addExpenseBtn">Adicionar</button>
+            </section>
+            <button id="clearAllBtn">Limpar Tudo</button>
+        </section>
+    </main>
+    <!-- Texto "Feito por vitorguisc" -->
+    <div id="credit">Feito por vitorguisc</div>
+
+    <script src="index.js"></script>
+</body>
+</html>

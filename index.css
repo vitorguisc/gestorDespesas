@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2; /* cor de fundo cinza claro */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* cor de fundo branca */
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    display: block;
+    width: calc(100% - 16px); /* considerando o padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ccc; /* cor de fundo cinza claro para botões */
+    color: #333;
+    cursor: pointer;
+}
+
+/* Centralize os botões */
+button,
+#clearAllBtn {
+    display: block;
+    margin: 10px auto;
+}
+
+
+button:hover {
+    background-color: #bbb; /* escurece um pouco quando hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#balanceAmount {
+    color: green;
+}
+
+/* Adicione esses estilos para centralizar o título */
+#title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os itens da lista de despesas */
+#expensesList li {
+    margin-bottom: 5px; /* Adiciona espaço entre os itens */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Adiciona espaço entre o último item da lista de despesas e o título "Adicionar Despesa" */
+#expensesList li:last-child {
+    margin-bottom: 20px;
+}
+
+/* Estilo para o texto "Feito por vitorguisc" */
+#credit {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+
